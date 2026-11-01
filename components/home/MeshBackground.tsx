@@ -92,17 +92,53 @@ export default function MeshBackground() {
 
       {/* 1. Gradient Gas Layer — hue-shift only on desktop */}
       <motion.div
-        className="absolute inset-0 w-full h-full opacity-60 mix-blend-normal"
+        className="absolute inset-0 w-full h-full opacity-70 mix-blend-normal"
         style={isTouch ? undefined : { filter: hueFilter }}
       >
-        <div className="gas-orb absolute top-[-20%] left-[-10%] w-[70%] h-[70%] rounded-full"
-          style={{ background: "radial-gradient(circle, rgba(139,92,246,0.85) 0%, rgba(139,92,246,0) 65%)", transform: "translateZ(0)", animation: "gas-drift-1 12s infinite alternate ease-in-out" }} />
-        <div className="gas-orb absolute top-[10%] right-[-20%] w-[80%] h-[80%] rounded-full"
-          style={{ background: "radial-gradient(circle, rgba(6,182,212,0.75) 0%, rgba(6,182,212,0) 65%)", transform: "translateZ(0)", animation: "gas-drift-2 16s infinite alternate-reverse ease-in-out" }} />
-        <div className="gas-orb absolute bottom-[-30%] left-[10%] w-[90%] h-[90%] rounded-full"
-          style={{ background: "radial-gradient(circle, rgba(59,130,246,0.75) 0%, rgba(59,130,246,0) 65%)", transform: "translateZ(0)", animation: "gas-drift-3 14s infinite alternate ease-in-out" }} />
-        <div className="gas-orb absolute top-[50%] right-[20%] w-[60%] h-[60%] rounded-full"
-          style={{ background: "radial-gradient(circle, rgba(16,185,129,0.55) 0%, rgba(16,185,129,0) 65%)", transform: "translateZ(0)", animation: "gas-drift-1 10s infinite alternate-reverse ease-in-out" }} />
+        <div
+          className="gas-orb absolute top-[-20%] left-[-10%] w-[70%] h-[70%] rounded-full"
+          style={{
+            background: "radial-gradient(circle at center, rgba(139,92,246,0.85) 0%, rgba(139,92,246,0.55) 30%, rgba(139,92,246,0.25) 55%, rgba(139,92,246,0.05) 75%, transparent 100%)",
+            filter: "blur(90px)",
+            WebkitFilter: "blur(90px)",
+            transform: "translateZ(0)",
+            willChange: "transform",
+            animation: "gas-drift-1 14s infinite alternate ease-in-out",
+          }}
+        />
+        <div
+          className="gas-orb absolute top-[10%] right-[-20%] w-[80%] h-[80%] rounded-full"
+          style={{
+            background: "radial-gradient(circle at center, rgba(6,182,212,0.8) 0%, rgba(6,182,212,0.5) 30%, rgba(6,182,212,0.22) 55%, rgba(6,182,212,0.05) 75%, transparent 100%)",
+            filter: "blur(90px)",
+            WebkitFilter: "blur(90px)",
+            transform: "translateZ(0)",
+            willChange: "transform",
+            animation: "gas-drift-2 18s infinite alternate-reverse ease-in-out",
+          }}
+        />
+        <div
+          className="gas-orb absolute bottom-[-30%] left-[10%] w-[90%] h-[90%] rounded-full"
+          style={{
+            background: "radial-gradient(circle at center, rgba(59,130,246,0.8) 0%, rgba(59,130,246,0.5) 30%, rgba(59,130,246,0.22) 55%, rgba(59,130,246,0.05) 75%, transparent 100%)",
+            filter: "blur(90px)",
+            WebkitFilter: "blur(90px)",
+            transform: "translateZ(0)",
+            willChange: "transform",
+            animation: "gas-drift-3 16s infinite alternate ease-in-out",
+          }}
+        />
+        <div
+          className="gas-orb absolute top-[50%] right-[20%] w-[60%] h-[60%] rounded-full"
+          style={{
+            background: "radial-gradient(circle at center, rgba(16,185,129,0.6) 0%, rgba(16,185,129,0.35) 30%, rgba(16,185,129,0.15) 55%, rgba(16,185,129,0.03) 75%, transparent 100%)",
+            filter: "blur(90px)",
+            WebkitFilter: "blur(90px)",
+            transform: "translateZ(0)",
+            willChange: "transform",
+            animation: "gas-drift-1 12s infinite alternate-reverse ease-in-out",
+          }}
+        />
       </motion.div>
 
       {/* 2. Dotted Grid Cursor Spotlight — desktop only */}

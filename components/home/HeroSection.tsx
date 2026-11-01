@@ -91,7 +91,9 @@ export default function HeroSection({ data }: { data?: HeroContent }) {
             width: "65vw", height: "65vw",
             top: "-25%", left: "-20%",
             borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(109,40,217,0.15) 0%, rgba(109,40,217,0.05) 40%, transparent 70%)",
+            background: "radial-gradient(circle, rgba(109,40,217,0.18) 0%, rgba(109,40,217,0.06) 40%, transparent 70%)",
+            filter: "blur(60px)",
+            WebkitFilter: "blur(60px)",
             animation: "orb-drift-1 28s ease infinite alternate",
             transition: "transform 0.8s cubic-bezier(0.16,1,0.3,1)",
           }}
@@ -103,7 +105,9 @@ export default function HeroSection({ data }: { data?: HeroContent }) {
             width: "50vw", height: "50vw",
             top: "10%", right: "-18%",
             borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(8,145,178,0.12) 0%, transparent 65%)",
+            background: "radial-gradient(circle, rgba(8,145,178,0.15) 0%, rgba(8,145,178,0.04) 40%, transparent 70%)",
+            filter: "blur(60px)",
+            WebkitFilter: "blur(60px)",
             animation: "orb-drift-2 34s ease infinite alternate",
             transition: "transform 0.8s cubic-bezier(0.16,1,0.3,1)",
           }}
@@ -115,7 +119,9 @@ export default function HeroSection({ data }: { data?: HeroContent }) {
             width: "35vw", height: "35vw",
             bottom: "0%", left: "28%",
             borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(245,158,11,0.1) 0%, transparent 65%)",
+            background: "radial-gradient(circle, rgba(245,158,11,0.12) 0%, rgba(245,158,11,0.03) 40%, transparent 70%)",
+            filter: "blur(60px)",
+            WebkitFilter: "blur(60px)",
             animation: "orb-drift-3 22s ease infinite alternate",
             transition: "transform 0.8s cubic-bezier(0.16,1,0.3,1)",
           }}
@@ -131,22 +137,7 @@ export default function HeroSection({ data }: { data?: HeroContent }) {
               radial-gradient(1px 1px at 80% 20%, rgba(60,45,25,0.07) 0%, transparent 0%)
             `,
             backgroundSize: "32px 32px, 48px 48px, 24px 24px",
-            opacity: 0.6,
-          }}
-        />
-
-        {/* Subtle grid lines */}
-        <div
-          style={{
-            position: "absolute", inset: 0,
-            backgroundImage: `
-              linear-gradient(var(--cream-3) 1px, transparent 1px),
-              linear-gradient(90deg, var(--cream-3) 1px, transparent 1px)
-            `,
-            backgroundSize: "80px 80px",
-            opacity: 0.35,
-            WebkitMaskImage: "radial-gradient(ellipse 75% 75% at 50% 50%, black 10%, transparent 100%)",
-            maskImage: "radial-gradient(ellipse 75% 75% at 50% 50%, black 10%, transparent 100%)",
+            opacity: 0.4,
           }}
         />
       </div>
