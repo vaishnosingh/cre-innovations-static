@@ -474,7 +474,7 @@ a { color: inherit; }
   border-radius: var(--radius-pill);
   cursor: pointer;
   border: none;
-  transition: transform 0.2s var(--ease-out-expo), box-shadow 0.2s var(--ease-out-expo), color 0.2s var(--ease-out-expo), background-color 0.2s var(--ease-out-expo);
+  transition: all 0.25s var(--ease-spring);
   white-space: nowrap;
   letter-spacing: -0.01em;
   position: relative;
@@ -746,13 +746,6 @@ label {
   pointer-events: none;
   animation: grain 8s steps(10) infinite;
   opacity: 0.35;
-}
-
-@media (hover: none) and (pointer: coarse) {
-  .noise-bg::after {
-    animation: none;
-    transform: translate(0, 0);
-  }
 }
 
 /* ─── SECTION BG VARIANTS ───────────────────────────────────────── */

@@ -50,18 +50,17 @@ export default function HeroSection({ data }: { data?: HeroContent }) {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.06,
+        staggerChildren: 0.12,
         delayChildren: 0.1,
       },
     },
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 40, scale: 0.95, filter: "blur(8px)" },
+    hidden: { opacity: 0, y: 40, filter: "blur(8px)" },
     visible: { 
       opacity: 1, 
       y: 0, 
-      scale: 1,
       filter: "blur(0px)",
       transition: { type: "spring" as const, stiffness: 120, damping: 20 }
     },
@@ -91,9 +90,7 @@ export default function HeroSection({ data }: { data?: HeroContent }) {
             width: "65vw", height: "65vw",
             top: "-25%", left: "-20%",
             borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(109,40,217,0.18) 0%, rgba(109,40,217,0.06) 40%, transparent 70%)",
-            filter: "blur(60px)",
-            WebkitFilter: "blur(60px)",
+            background: "radial-gradient(circle, rgba(109,40,217,0.15) 0%, rgba(109,40,217,0.05) 40%, transparent 70%)",
             animation: "orb-drift-1 28s ease infinite alternate",
             transition: "transform 0.8s cubic-bezier(0.16,1,0.3,1)",
           }}
@@ -105,9 +102,7 @@ export default function HeroSection({ data }: { data?: HeroContent }) {
             width: "50vw", height: "50vw",
             top: "10%", right: "-18%",
             borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(8,145,178,0.15) 0%, rgba(8,145,178,0.04) 40%, transparent 70%)",
-            filter: "blur(60px)",
-            WebkitFilter: "blur(60px)",
+            background: "radial-gradient(circle, rgba(8,145,178,0.12) 0%, transparent 65%)",
             animation: "orb-drift-2 34s ease infinite alternate",
             transition: "transform 0.8s cubic-bezier(0.16,1,0.3,1)",
           }}
@@ -119,9 +114,7 @@ export default function HeroSection({ data }: { data?: HeroContent }) {
             width: "35vw", height: "35vw",
             bottom: "0%", left: "28%",
             borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(245,158,11,0.12) 0%, rgba(245,158,11,0.03) 40%, transparent 70%)",
-            filter: "blur(60px)",
-            WebkitFilter: "blur(60px)",
+            background: "radial-gradient(circle, rgba(245,158,11,0.1) 0%, transparent 65%)",
             animation: "orb-drift-3 22s ease infinite alternate",
             transition: "transform 0.8s cubic-bezier(0.16,1,0.3,1)",
           }}
@@ -137,7 +130,22 @@ export default function HeroSection({ data }: { data?: HeroContent }) {
               radial-gradient(1px 1px at 80% 20%, rgba(60,45,25,0.07) 0%, transparent 0%)
             `,
             backgroundSize: "32px 32px, 48px 48px, 24px 24px",
-            opacity: 0.4,
+            opacity: 0.6,
+          }}
+        />
+
+        {/* Subtle grid lines */}
+        <div
+          style={{
+            position: "absolute", inset: 0,
+            backgroundImage: `
+              linear-gradient(var(--cream-3) 1px, transparent 1px),
+              linear-gradient(90deg, var(--cream-3) 1px, transparent 1px)
+            `,
+            backgroundSize: "80px 80px",
+            opacity: 0.35,
+            WebkitMaskImage: "radial-gradient(ellipse 75% 75% at 50% 50%, black 10%, transparent 100%)",
+            maskImage: "radial-gradient(ellipse 75% 75% at 50% 50%, black 10%, transparent 100%)",
           }}
         />
       </div>
@@ -273,8 +281,8 @@ export default function HeroSection({ data }: { data?: HeroContent }) {
           style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "0.875rem", marginBottom: "3.5rem" }}
         >
           {data.primaryCta?.visible && (
-            <div className="glass-premium group relative overflow-hidden transition-transform duration-200 ease-out hover:scale-105 active:scale-95 shadow-[0_0_40px_rgba(139,92,246,0.4)] hover:shadow-[0_0_60px_rgba(139,92,246,0.6)]" style={{ borderRadius: "var(--radius-pill)", display: "inline-block" }}>
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-violet-500 to-rose-500 opacity-90 group-hover:opacity-100 transition-opacity duration-200 ease-out" />
+            <div className="glass-premium group relative overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_rgba(139,92,246,0.4)] hover:shadow-[0_0_60px_rgba(139,92,246,0.6)]" style={{ borderRadius: "var(--radius-pill)", display: "inline-block" }}>
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-violet-500 to-rose-500 opacity-90 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="absolute -inset-full animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,rgba(255,255,255,0.5)_0%,transparent_50%,rgba(255,255,255,0.5)_100%)] opacity-40 mix-blend-overlay" />
               <Link href={data.primaryCta.href} className="btn relative z-10 flex items-center justify-center gap-2" id="hero-cta-primary" style={{
                 margin: "1px",
@@ -288,12 +296,12 @@ export default function HeroSection({ data }: { data?: HeroContent }) {
                 fontSize: "0.95rem",
                 boxShadow: "inset 0 1px 2px rgba(255,255,255,0.5)",
               }}>
-                <span className="drop-shadow-lg">{data.primaryCta.label}</span> <ArrowRight className="group-hover:translate-x-1.5 transition-transform duration-200 ease-out drop-shadow-lg" size={18} />
+                <span className="drop-shadow-lg">{data.primaryCta.label}</span> <ArrowRight className="group-hover:translate-x-1.5 transition-transform drop-shadow-lg" size={18} />
               </Link>
             </div>
           )}
           {data.secondaryCta?.visible && (
-            <div className="group relative overflow-hidden transition-transform duration-200 ease-out hover:scale-105 active:scale-95" style={{ borderRadius: "var(--radius-pill)", display: "inline-flex" }}>
+            <div className="group relative overflow-hidden transition-all hover:scale-105 active:scale-95" style={{ borderRadius: "var(--radius-pill)", display: "inline-flex" }}>
               <Link href={data.secondaryCta.href} className="btn relative z-10 flex items-center justify-center overflow-hidden" id="hero-cta-secondary" style={{
                 padding: "1rem clamp(1.25rem, 4vw, 2.75rem)",
                 borderRadius: "var(--radius-pill)",
@@ -306,7 +314,7 @@ export default function HeroSection({ data }: { data?: HeroContent }) {
                 fontSize: "0.95rem",
                 boxShadow: "0 4px 20px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.05)"
               }}>
-                <div className="absolute inset-0 bg-gradient-to-r from-violet-500/20 to-cyan-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-200 ease-out" />
+                <div className="absolute inset-0 bg-gradient-to-r from-violet-500/20 to-cyan-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <span className="relative z-10 transition-colors duration-300">{data.secondaryCta.label}</span>
               </Link>
             </div>
