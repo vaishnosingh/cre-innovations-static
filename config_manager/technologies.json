@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Technologies — Our Technology DNA | CRE Innovations",
+  "metaDescription": "Explore the full technology stack at CRE Innovations — 40+ technologies across 6 domains, refined over 13 years.",
+  "hero": {
+    "visible": true,
+    "badge": "Our Stack",
+    "title": "Built with the",
+    "highlightWord": "Best",
+    "subtitle": "40+ technologies. 6 domains. 13 years of relentless craft — every tool earned its place through production performance, never trend-chasing."
+  },
+  "cta": {
+    "visible": true,
+    "label": "Join Our Engineering Team",
+    "href": "/careers"
+  },
+  "domains": [
+    {
+      "id": "mobile",
+      "visible": true,
+      "label": "Mobile & Desktop",
+      "color": "var(--accent-emerald)",
+      "description": "We don't just use these technologies, we push them to their limits in production environments serving millions.",
+      "technologies": [
+        { "name": "Swift", "desc": "Core language for all iOS, iPadOS, and macOS products." },
+        { "name": "Kotlin", "desc": "Primary language for Android native development." },
+        { "name": "SwiftUI", "desc": "Declarative UI framework for modern Apple platforms." },
+        { "name": "Jetpack Compose", "desc": "Modern toolkit for building native Android UI." },
+        { "name": "Metal", "desc": "Low-overhead hardware-accelerated 3D graphic and compute shader API." },
+        { "name": "CoreML", "desc": "Machine learning framework used for on-device inference." }
+      ]
+    },
+    {
+      "id": "ai",
+      "visible": true,
+      "label": "AI & Machine Learning",
+      "color": "var(--accent-purple)",
+      "description": "We don't just use these technologies, we push them to their limits in production environments serving millions.",
+      "technologies": [
+        { "name": "Python", "desc": "The foundation of our AI research and engineering." },
+        { "name": "PyTorch", "desc": "Primary framework for training deep learning models." },
+        { "name": "TensorFlow", "desc": "Used for production model deployment and Edge AI." },
+        { "name": "OpenAI API", "desc": "Integrated for state-of-the-art generative capabilities." },
+        { "name": "Hugging Face", "desc": "Leveraging open-source models for specialized tasks." },
+        { "name": "FastAPI", "desc": "High-performance API framework for serving AI models." }
+      ]
+    },
+    {
+      "id": "web",
+      "visible": true,
+      "label": "Web & Backend",
+      "color": "var(--accent-cyan)",
+      "description": "We don't just use these technologies, we push them to their limits in production environments serving millions.",
+      "technologies": [
+        { "name": "Next.js", "desc": "React framework for production-grade web applications." },
+        { "name": "React", "desc": "Core library for building interactive user interfaces." },
+        { "name": "TypeScript", "desc": "Strongly typed JavaScript for robust codebases." },
+        { "name": "Django", "desc": "High-level Python framework for rapid backend development." },
+        { "name": "Node.js", "desc": "Event-driven runtime for scalable network applications." },
+        { "name": "GraphQL", "desc": "Query language for our complex APIs." }
+      ]
+    },
+    {
+      "id": "infra",
+      "visible": true,
+      "label": "Infrastructure & Data",
+      "color": "var(--accent-amber)",
+      "description": "We don't just use these technologies, we push them to their limits in production environments serving millions.",
+      "technologies": [
+        { "name": "AWS", "desc": "Primary cloud provider for our global infrastructure." },
+        { "name": "PostgreSQL", "desc": "Advanced open-source relational database." },
+        { "name": "Redis", "desc": "In-memory data structure store for caching and queues." },
+        { "name": "Docker", "desc": "Containerization for consistent deployment environments." },
+        { "name": "Kubernetes", "desc": "Orchestrating our microservices at scale." },
+        { "name": "Firebase", "desc": "Real-time databases and authentication for mobile apps." }
+      ]
+    }
+  ]
+}

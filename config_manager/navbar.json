@@ -1,0 +1,18 @@
+{
+  "logo": {
+    "text": "CRE INNOVATIONS",
+    "shortText": "CRE"
+  },
+  "links": [
+    { "id": "nl-home", "visible": true, "label": "Home", "href": "/" },
+    { "id": "nl-1", "visible": true, "label": "About", "href": "/about" },
+    { "id": "nl-2", "visible": true, "label": "Domains", "href": "/domains" },
+    { "id": "nl-3", "visible": false, "label": "Technologies", "href": "/technologies" },
+    { "id": "nl-contact", "visible": true, "label": "Contact", "href": "/contact" }
+  ],
+  "cta": {
+    "visible": true,
+    "label": "Careers",
+    "href": "/careers"
+  }
+}

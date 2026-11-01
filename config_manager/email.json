@@ -1,0 +1,18 @@
+{
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "vaishnosingh9@gmail.com",
+      "pass": "rhea ojtx lxvk jhsn"
+    }
+  },
+  "sender": {
+    "name": "CRE Innovations",
+    "address": "your-email@gmail.com"
+  },
+  "recipients": {
+    "hr": "hr@creinnovations.in"
+  }
+}

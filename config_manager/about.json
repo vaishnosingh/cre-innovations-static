@@ -1,0 +1,233 @@
+{
+  "pageTitle": "About — 13 Years of Crafting the Extraordinary",
+  "metaDescription": "CRE Innovations was founded in 2013 as a division of Mobisoft Labs.",
+  "hero": {
+    "visible": true,
+    "badge": "Our Story",
+    "title": "13 Years of Crafting the",
+    "highlightWord": "Extraordinary",
+    "subtitle": "From a vision in 2013 to a globally recognized application development company. This is our story."
+  },
+  "story": {
+    "visible": true,
+    "headingPrefix": "Built on 13 Years of",
+    "headingHighlight": "Passion",
+    "paragraphs": [
+      {
+        "id": "st-p1",
+        "visible": true,
+        "text": "Founded in 2013 as a division of Mobisoft Labs, CRE Innovations emerged from a simple belief: great software should be beautiful, performant, and intelligent."
+      },
+      {
+        "id": "st-p2",
+        "visible": true,
+        "text": "India-based with global application users, our team of young, highly motivated professionals spans two locations and four disciplines."
+      },
+      {
+        "id": "st-p3",
+        "visible": true,
+        "text": "100+ applications delivered. Partners include Facebook, Google, Aviary, and Instagram."
+      }
+    ],
+    "cta": {
+      "visible": true,
+      "label": "Explore Open Roles",
+      "href": "/careers"
+    },
+    "stats": [
+      {
+        "id": "st-s1",
+        "visible": true,
+        "n": "100+",
+        "label": "Apps Shipped",
+        "color": "#7c3aed"
+      },
+      {
+        "id": "st-s2",
+        "visible": true,
+        "n": "13+",
+        "label": "Years Active",
+        "color": "#06b6d4"
+      },
+      {
+        "id": "st-s3",
+        "visible": true,
+        "n": "100M+",
+        "label": "Active Users",
+        "color": "#f43f5e"
+      },
+      {
+        "id": "st-s4",
+        "visible": true,
+        "n": "4",
+        "label": "Core Domains",
+        "color": "#f59e0b"
+      }
+    ]
+  },
+  "purpose": {
+    "visible": true,
+    "badge": "Our Purpose",
+    "title": "Mission & Vision",
+    "items": [
+      {
+        "id": "pu-1",
+        "visible": true,
+        "icon": "🎯",
+        "color": "#7c3aed",
+        "pill": "pill-violet",
+        "title": "Mission",
+        "text": "To build technically superior, AI-infused mobile and web applications that delight users and exceed expectations — one exceptional product at a time."
+      },
+      {
+        "id": "pu-2",
+        "visible": true,
+        "icon": "🔭",
+        "color": "#06b6d4",
+        "pill": "pill-cyan",
+        "title": "Vision",
+        "text": "To be recognized globally as the benchmark for mobile application and game development, where innovation is standard and excellence is the minimum."
+      }
+    ]
+  },
+  "timeline": {
+    "visible": true,
+    "badge": "Our Journey",
+    "title": "A Decade of Milestones",
+    "events": [
+      {
+        "id": "tl-1",
+        "visible": true,
+        "year": "2013",
+        "event": "CRE Innovations founded as a division of Mobisoft Labs"
+      },
+      {
+        "id": "tl-2",
+        "visible": true,
+        "year": "2014",
+        "event": "First 50 apps shipped on iOS and Android"
+      },
+      {
+        "id": "tl-3",
+        "visible": true,
+        "year": "2015",
+        "event": "Expanded team to 20+ engineers and designers"
+      },
+      {
+        "id": "tl-4",
+        "visible": true,
+        "year": "2016",
+        "event": "200+ apps milestone. First game development project shipped"
+      },
+      {
+        "id": "tl-5",
+        "visible": true,
+        "year": "2017",
+        "event": "AI/ML integration begins in mobile apps"
+      },
+      {
+        "id": "tl-6",
+        "visible": true,
+        "year": "2018",
+        "event": "Partnered with major global brands — Facebook, Google, Aviary"
+      },
+      {
+        "id": "tl-7",
+        "visible": true,
+        "year": "2019",
+        "event": "400+ apps delivered. SwiftUI adoption on day one"
+      },
+      {
+        "id": "tl-8",
+        "visible": true,
+        "year": "2020",
+        "event": "Full AI team established. CoreML and TensorFlow Lite in production"
+      },
+      {
+        "id": "tl-9",
+        "visible": true,
+        "year": "2021",
+        "event": "500+ app milestone. FastAPI backend services for AI products"
+      },
+      {
+        "id": "tl-10",
+        "visible": true,
+        "year": "2022",
+        "event": "Game development studio formalized. Unity + Metal titles"
+      },
+      {
+        "id": "tl-11",
+        "visible": true,
+        "year": "2023",
+        "event": "Decade of excellence. 100+ apps. 50+ team members"
+      },
+      {
+        "id": "tl-12",
+        "visible": true,
+        "year": "2024",
+        "event": "Next-generation AI product line launched"
+      },
+      {
+        "id": "tl-13",
+        "visible": true,
+        "year": "2025",
+        "event": "Expanding generative AI and on-device LLM capabilities"
+      }
+    ]
+  },
+  "values": {
+    "visible": true,
+    "badge": "What We Believe",
+    "title": "Our Core Values",
+    "items": [
+      {
+        "id": "val-1",
+        "visible": true,
+        "icon": "⚡",
+        "color": "#7c3aed",
+        "title": "Innovation First",
+        "desc": "We explore the bleeding edge before it becomes mainstream."
+      },
+      {
+        "id": "val-2",
+        "visible": true,
+        "icon": "🔧",
+        "color": "#06b6d4",
+        "title": "Engineering Excellence",
+        "desc": "We write clean, tested, scalable code. Always."
+      },
+      {
+        "id": "val-3",
+        "visible": true,
+        "icon": "👤",
+        "color": "#10b981",
+        "title": "User Obsession",
+        "desc": "Our apps are loved because we think like users first."
+      },
+      {
+        "id": "val-4",
+        "visible": true,
+        "icon": "🎨",
+        "color": "#f59e0b",
+        "title": "Creative Courage",
+        "desc": "We don't play it safe. Bold design wins."
+      },
+      {
+        "id": "val-5",
+        "visible": true,
+        "icon": "📚",
+        "color": "#f43f5e",
+        "title": "Continuous Learning",
+        "desc": "Every team member grows. We fund it, we celebrate it."
+      },
+      {
+        "id": "val-6",
+        "visible": true,
+        "icon": "🤝",
+        "color": "#a78bfa",
+        "title": "Integrity Always",
+        "desc": "We ship what we promise. No excuses."
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "pageTitle": "Domains — Android, iOS, UI/UX, Web & AI | CRE Innovations",
+  "metaDescription": "Explore the four domains of excellence at CRE Innovations: Android, iOS, UI/UX Creative Studio, and Web & AI Development.",
+  "hero": {
+    "visible": true,
+    "badge": "Our Expertise",
+    "title": "Four Domains.",
+    "highlightWord": "Infinite Possibilities.",
+    "subtitle": "Four interconnected disciplines delivering end-to-end digital excellence."
+  },
+  "domains": [
+    {
+      "id": "android",
+      "visible": true,
+      "title": "Android Development",
+      "tagline": "Native. Fast. Intelligent.",
+      "color": "var(--accent-emerald)",
+      "icon": "Smartphone",
+      "stats": {
+        "n": 150,
+        "suffix": "+",
+        "label": "Android Apps"
+      },
+      "description": "Our Android team builds native applications that set the standard for performance and user experience. Using Java and Kotlin in Android Studio, we craft apps that leverage the full power of the Android ecosystem. From Google Firebase integration for real-time capabilities to ML Kit for on-device AI, our Android engineers are among the best in the country. We don't build hybrid apps — we go native, always.",
+      "stack": [
+        "Java",
+        "Kotlin",
+        "Android Studio",
+        "Jetpack Compose",
+        "ViewModel",
+        "Room",
+        "WorkManager",
+        "Google Firebase",
+        "ML Kit",
+        "TensorFlow Lite",
+        "ExoPlayer",
+        "CameraX",
+        "NDK/OpenGL"
+      ],
+      "careersFilter": "android"
+    },
+    {
+      "id": "ios",
+      "visible": true,
+      "title": "iOS Development",
+      "tagline": "Swift. Metal. Magic.",
+      "color": "var(--accent-indigo)",
+      "icon": "Layers",
+      "stats": {
+        "n": 200,
+        "suffix": "+",
+        "label": "iOS Apps"
+      },
+      "description": "The iOS team at CRE Innovations operates at the absolute frontier of Apple platform development. Swift and SwiftUI are our native languages. We build for iPhone, iPad, Mac, Apple Watch, and Apple TV. Our use of the Metal framework for GPU-accelerated graphics gives our games and creative apps performance that rivals console experiences. We adopt every new Apple API on release day.",
+      "stack": [
+        "Swift 5.9+",
+        "SwiftUI",
+        "UIKit",
+        "Xcode",
+        "Metal",
+        "CoreML",
+        "Vision",
+        "ARKit",
+        "RealityKit",
+        "Core Data",
+        "CloudKit",
+        "StoreKit 2",
+        "HealthKit",
+        "AVFoundation"
+      ],
+      "careersFilter": "ios"
+    },
+    {
+      "id": "design",
+      "visible": true,
+      "title": "UI/UX & Creative Studio",
+      "tagline": "Design. Motion. Story.",
+      "color": "var(--accent-amber)",
+      "icon": "Palette",
+      "stats": {
+        "n": 50,
+        "suffix": "+",
+        "label": "Awards Won"
+      },
+      "description": "Design at CRE is not a support function — it is a core product function. Our UI/UX and Creative team shapes every pixel of every product we ship. From UX research and wireframing to high-fidelity UI in Figma, motion graphics in After Effects, and video production in Premiere Pro. Designers here collaborate daily with engineers ensuring what gets designed, gets built exactly as envisioned.",
+      "stack": [
+        "Figma",
+        "Adobe XD",
+        "Sketch",
+        "Photoshop",
+        "Illustrator",
+        "After Effects",
+        "Premiere Pro",
+        "Canva",
+        "Lottie",
+        "Cinema 4D",
+        "Principle",
+        "Framer",
+        "InVision"
+      ],
+      "careersFilter": "design"
+    },
+    {
+      "id": "web-ai",
+      "visible": true,
+      "title": "Web & AI Development",
+      "tagline": "Python. PyTorch. Scale.",
+      "color": "var(--accent-purple)",
+      "icon": "BrainCircuit",
+      "stats": {
+        "n": 30,
+        "suffix": "+",
+        "label": "AI Models"
+      },
+      "description": "Our Web and AI division is the intelligence engine of everything we build. Python is our primary language, with Django for full-stack web apps, Flask for microservices, and FastAPI for high-performance AI APIs. Our ML engineers train and deploy models using TensorFlow and PyTorch at scale on AWS. We integrate generative AI APIs and power AI features in our iOS and Android apps.",
+      "stack": [
+        "Python 3.11+",
+        "Django",
+        "Flask",
+        "FastAPI",
+        "Celery",
+        "Redis",
+        "PostgreSQL",
+        "AWS (full suite)",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "TensorFlow",
+        "PyTorch",
+        "Hugging Face",
+        "OpenAI API",
+        "Unity (C#)",
+        "WebGL",
+        "Three.js"
+      ],
+      "careersFilter": "web-ai"
+    }
+  ]
+}

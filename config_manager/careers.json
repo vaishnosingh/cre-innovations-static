@@ -1,0 +1,44 @@
+{
+  "pageTitle": "Open Roles — Shape the Future of Technology",
+  "metaDescription": "Browse open engineering, design, and AI roles at CRE Innovations in Delhi, India. iOS, Android, ML Engineer, UI/UX Designer, and more.",
+  "hero": {
+    "visible": true,
+    "badge": "Open Positions",
+    "title": "Shape the Future of",
+    "highlightWord": "Technology",
+    "subtitle": "We're growing our team of visionaries. Find your role."
+  },
+  "departments": [
+    { "id": "all", "label": "All Roles" },
+    { "id": "android", "label": "Android" },
+    { "id": "ios", "label": "iOS" },
+    { "id": "design", "label": "Design" },
+    { "id": "web-ai", "label": "Web & AI" },
+    { "id": "game-dev", "label": "Game Dev" }
+  ],
+  "departmentColors": {
+    "android": "#10b981",
+    "ios": "#7c3aed",
+    "design": "#f59e0b",
+    "web-ai": "#06b6d4",
+    "game-dev": "#f43f5e"
+  },
+  "jobs": [
+    { "id": "1", "visible": true, "slug": "senior-ios-engineer", "title": "Senior iOS Engineer", "department": "ios", "location": "Delhi, India", "experience": "3-6 yrs", "type": "Full-time", "description": "Lead iOS development using Swift, SwiftUI, and CoreML. Build AI-powered apps used by millions." },
+    { "id": "2", "visible": true, "slug": "android-engineer", "title": "Android Engineer", "department": "android", "location": "Delhi, India", "experience": "2-5 yrs", "type": "Full-time", "description": "Build native Android apps with Kotlin and Jetpack Compose. Firebase, ML Kit, and CameraX experience preferred." },
+    { "id": "3", "visible": true, "slug": "junior-android-developer", "title": "Junior Android Developer", "department": "android", "location": "Delhi, India", "experience": "0-2 yrs", "type": "Full-time", "description": "Start your Android career with Java/Kotlin. Learn from senior engineers in a real product environment." },
+    { "id": "4", "visible": true, "slug": "ui-ux-designer", "title": "UI/UX Designer", "department": "design", "location": "Delhi, India", "experience": "2-4 yrs", "type": "Full-time", "description": "Design pixel-perfect interfaces in Figma. Collaborate daily with iOS and Android engineers." },
+    { "id": "5", "visible": true, "slug": "motion-graphics-designer", "title": "Motion Graphics Designer", "department": "design", "location": "Delhi, India", "experience": "1-3 yrs", "type": "Full-time", "description": "Create stunning motion graphics in After Effects and Lottie for global app campaigns." },
+    { "id": "6", "visible": true, "slug": "ml-engineer", "title": "ML Engineer", "department": "web-ai", "location": "Delhi, India", "experience": "3-5 yrs", "type": "Full-time", "description": "Train and deploy PyTorch / TensorFlow models with FastAPI on AWS at production scale." },
+    { "id": "7", "visible": true, "slug": "backend-engineer-python", "title": "Backend Engineer (Python)", "department": "web-ai", "location": "Delhi, India", "experience": "2-5 yrs", "type": "Full-time", "description": "Build high-performance Django/FastAPI backends with PostgreSQL on AWS infrastructure." },
+    { "id": "8", "visible": true, "slug": "react-nextjs-developer", "title": "React / Next.js Developer", "department": "web-ai", "location": "Delhi, India", "experience": "2-4 yrs", "type": "Full-time", "description": "Build dynamic Next.js applications with TypeScript and REST APIs." },
+    { "id": "9", "visible": true, "slug": "game-developer", "title": "Game Developer", "department": "game-dev", "location": "Delhi, India", "experience": "2-4 yrs", "type": "Full-time", "description": "Build Unity C# games and iOS Metal titles. 3D modeling experience a plus." },
+    { "id": "10", "visible": true, "slug": "graphic-designer", "title": "Graphic Designer", "department": "design", "location": "Delhi, India", "experience": "1-3 yrs", "type": "Full-time", "description": "Create brand assets, marketing materials, and in-app illustrations." }
+  ],
+  "cta": {
+    "visible": true,
+    "text": "Don't see your role? Send us your CV anyway.",
+    "emailLabel": "📧 hr@creinnovations.in",
+    "emailHref": "mailto:hr@creinnovations.in?subject=Open Application — CRE Innovations"
+  }
+}

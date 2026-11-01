@@ -1,0 +1,104 @@
+{
+  "preFooter": {
+    "visible": true,
+    "heading": "Ready to build",
+    "highlightWord": "excellence?",
+    "description": "Join our team of elite engineers and designers ",
+    "cta": {
+      "visible": true,
+      "label": "View Open Roles",
+      "href": "/careers"
+    }
+  },
+  "brand": {
+    "description": "Building extraordinary digital experiences since 2013.",
+    "socials": [
+      {
+        "id": "s-1",
+        "visible": true,
+        "platform": "LinkedIn",
+        "icon": "Linkedin",
+        "href": "#"
+      },
+      {
+        "id": "s-2",
+        "visible": true,
+        "platform": "Twitter",
+        "icon": "Twitter",
+        "href": "#"
+      },
+      {
+        "id": "s-3",
+        "visible": true,
+        "platform": "GitHub",
+        "icon": "Github",
+        "href": "#"
+      },
+      {
+        "id": "s-4",
+        "visible": true,
+        "platform": "Instagram",
+        "icon": "Instagram",
+        "href": "#"
+      }
+    ]
+  },
+  "companyLinks": [
+    {
+      "id": "fl-home",
+      "visible": true,
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "id": "fl-1",
+      "visible": true,
+      "label": "About Us",
+      "href": "/about"
+    },
+    {
+      "id": "fl-2",
+      "visible": true,
+      "label": "Domains",
+      "href": "/domains"
+    },
+    {
+      "id": "fl-3",
+      "visible": false,
+      "label": "Technologies",
+      "href": "/technologies"
+    },
+    {
+      "id": "fl-4",
+      "visible": true,
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "careersLinks": [
+    {
+      "id": "cl-1",
+      "visible": true,
+      "label": "Open Roles",
+      "href": "/careers"
+    }
+  ],
+  "contact": {
+    "email": "hr@creinnovations.in",
+    "address": "403, Jyoti Shikhar Building, District Centre Janakpuri West"
+  },
+  "bottomLinks": [
+    {
+      "id": "bl-1",
+      "visible": true,
+      "label": "Privacy Policy",
+      "href": "/privacy-policy"
+    },
+    {
+      "id": "bl-2",
+      "visible": true,
+      "label": "Terms of Service",
+      "href": "/terms-of-service"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "pageTitle": "Contact — Let's Talk | CRE Innovations",
+  "metaDescription": "Have questions about working with us? Reach out to the CRE Innovations team at hr@creinnovations.in or use our contact form.",
+  "hero": {
+    "visible": true,
+    "badge": "Get In Touch",
+    "badgeIcon": "Send",
+    "title": "Let's Build Something",
+    "highlightWord": "Extraordinary",
+    "subtitle": "Whether you have a project in mind, want to join our team, or just want to say hello, we'd love to hear from you."
+  },
+  "form": {
+    "visible": true,
+    "title": "Send us a message",
+    "successTitle": "Message Sent!",
+    "successText": "Thank you for reaching out. We will get back to you within 24 hours.",
+    "buttonText": "Send Message",
+    "buttonSending": "Sending...",
+    "topics": [
+      {
+        "value": "project",
+        "label": "Start a Project"
+      },
+      {
+        "value": "career",
+        "label": "Career Inquiry"
+      },
+      {
+        "value": "partnership",
+        "label": "Partnership"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      }
+    ]
+  },
+  "infoSection": {
+    "visible": true,
+    "title": "Contact Information",
+    "items": [
+      {
+        "id": "1",
+        "icon": "MapPin",
+        "title": "Headquarters",
+        "details": [
+          "403, Jyoti Shikhar Building,",
+          "District Centre Janakpuri West",
+          "India"
+        ],
+        "copy": false
+      },
+      {
+        "id": "2",
+        "icon": "Mail",
+        "title": "Email Us",
+        "details": [
+          "hello@creinnovations.in",
+          "hr@creinnovations.in"
+        ],
+        "copy": true
+      },
+      {
+        "id": "3",
+        "icon": "Phone",
+        "title": "Call Us",
+        "details": [
+          "+91 00000 00000",
+          "(Coming Soon)"
+        ],
+        "copy": false
+      },
+      {
+        "id": "4",
+        "icon": "Clock",
+        "title": "Working Hours",
+        "details": [
+          "Monday – Friday",
+          "10:00 AM – 7:00 PM IST"
+        ],
+        "copy": false
+      }
+    ]
+  },
+  "socialSection": {
+    "visible": true,
+    "title": "Follow Us",
+    "links": [
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "icon": "Linkedin",
+        "href": "#"
+      },
+      {
+        "id": "twitter",
+        "label": "Twitter",
+        "icon": "Twitter",
+        "href": "#"
+      },
+      {
+        "id": "github",
+        "label": "GitHub",
+        "icon": "Github",
+        "href": "#"
+      },
+      {
+        "id": "instagram",
+        "label": "Instagram",
+        "icon": "Instagram",
+        "href": "#"
+      }
+    ]
+  }
+}
